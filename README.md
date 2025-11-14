@@ -50,35 +50,22 @@ sudo apt install php
 php -v
 ```
 
-### 3. Prepare Your Project
-Put these files in the same folder:
-- `index.php`
-- `login.php`
-- `users.php`
 
-Check that the **antispam field name** in `login.php` is:
-```
-email_address
-```
 
-### 4. Run Built-in PHP Server
+### 3. Run Built-in PHP Server
 ```
 cd /path/to/project
 php -S localhost:8000
 ```
 
-### 5. Set Permissions (Ubuntu)
+### 4. Set Permissions (Ubuntu)
 
 #### Quick Testing (not recommended for production)
 ```
-chmod 777 users.php
+chmod 777 users.php or
 ```
 
-#### Safer Permissions (for Apache environments)
-```
-sudo chown www-data:www-data users.php
-sudo chmod 664 users.php
-```
+
 
 ### 6. Access in Browser
 ```
