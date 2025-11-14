@@ -62,7 +62,7 @@ php -S localhost:8000
 
 #### Quick Testing (not recommended for production)
 ```
-chmod 777 users.php or
+chmod 777 users.php or chmod +rwx users.php
 ```
 
 
